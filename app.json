@@ -1,10 +1,11 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "myapp",
     "web": {
       "bundler": "metro"
     },
     "name": "HybrideEindproject",
-    "slug": "HybrideEindproject"
+    "slug": "HybrideEindproject",
+    "backgroundColor": "#00A877"
   }
 }
