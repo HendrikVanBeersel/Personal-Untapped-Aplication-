@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Arne",
+    "uniqueBeers": 472
+  },
+  {
+    "name": "Hendrik",
+    "uniqueBeers": 472
+  },
+  {
+    "name": "Dries",
+    "uniqueBeers": 450
+  },
+  {
+    "name": "Ellen",
+    "uniqueBeers": 319
+  },
+  {
+    "name": "Bert",
+    "uniqueBeers": 230
+  },
+  {
+    "name": "Bassie",
+    "uniqueBeers": 130
+  },
+  {
+    "name": "Tom",
+    "uniqueBeers": 127
+  }
+]

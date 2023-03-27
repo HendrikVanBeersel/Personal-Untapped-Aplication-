@@ -1,12 +1,12 @@
-# Expo Router Example
+# Untapped app
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+wij zitten met mijn vrienden samen op een app deze app gaat al de info tussen ons tonen.
 
-## 🚀 How to use
+# Back-end
 
-```sh
-npx create-react-native-app -t with-router
-```
+raad ik af te gebruiken deze code gebruik ik om al de data op te halen.
+
+werkt ook op het moment niet ik moet nieuwe keys aanvragen voor de api
 
 ## 📝 Notes
 

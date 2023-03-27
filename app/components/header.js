@@ -8,7 +8,7 @@ export default function HeaderNavigation({ active }) {
         style={
           active === "home" ? styles.activeBackground : styles.headerElement
         }
-        href="/home"
+        href="../screens/home"
       >
         home
       </Link>
@@ -16,7 +16,7 @@ export default function HeaderNavigation({ active }) {
         style={
           active === "ranking" ? styles.activeBackground : styles.headerElement
         }
-        href="/ranking"
+        href="../screens/ranking"
       >
         ranking
       </Link>
@@ -38,14 +38,16 @@ const screenOffset = (heightScreen - heightWindow) / 2;
 
 const styles = StyleSheet.create({
   header: {
+    backgroundColor: "#A80031",
+
     paddingTop: screenOffset,
     flexDirection: "row",
     justifyContent: "space-around",
   },
   headerElement: {
-    paddingHorizontal: 40,
+    paddingHorizontal: 30,
     color: "#fff",
-    paddingBottom: 10,
+    paddingVertical: 5,
   },
   activeBackground: {
     backgroundColor: "#00A877",
