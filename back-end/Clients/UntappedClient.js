@@ -11,6 +11,7 @@ module.exports = class UntappdClient {
     require("dotenv").config();
     this.clientID = process.env.CLIENT_ID;
     this.clientSecret = process.env.CLIENT_SECRET;
+    this.accessToken = process.env.ACCESS_TOKEN;
   }
 
   get(givenPath) {
@@ -65,6 +66,7 @@ module.exports = class UntappdClient {
         data.response.user.stats.total_checkins,
         data.response.user.stats.total_badges,
       ]);
+      completeResult.push(data);
     }
 
     return this.sortInformation(result);

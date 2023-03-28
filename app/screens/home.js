@@ -44,7 +44,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text: {
-    fontFamily: "cursive",
     fontSize: 24,
     fontWeight: "bold",
     color: "#333",
