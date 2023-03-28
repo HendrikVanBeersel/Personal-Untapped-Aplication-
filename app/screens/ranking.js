@@ -1,6 +1,6 @@
 import { Dimensions, StyleSheet, Text, View } from "react-native";
 import HeaderNavigation from "../components/header";
-import data from "../../back-end/People.json";
+import data from "../../back-end/database/People.json";
 
 export default function Ranking() {
   var ranking = data.sort((a, b) => b.uniqueBeers - a.uniqueBeers);

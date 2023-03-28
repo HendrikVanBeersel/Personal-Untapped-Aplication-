@@ -1,6 +1,7 @@
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
+const { Console } = require("console");
 
 module.exports = class UntappdClient {
   clientID;
@@ -9,6 +10,7 @@ module.exports = class UntappdClient {
 
   constructor() {
     require("dotenv").config();
+
     this.clientID = process.env.CLIENT_ID;
     this.clientSecret = process.env.CLIENT_SECRET;
     this.accessToken = process.env.ACCESS_TOKEN;
@@ -59,17 +61,16 @@ module.exports = class UntappdClient {
         " ",
         data.response.user.last_name
       );
-      result.push([
-        user,
-        realName,
-        data.response.user.stats.total_beers,
-        data.response.user.stats.total_checkins,
-        data.response.user.stats.total_badges,
-      ]);
-      completeResult.push(data);
+      result.push({
+        user:user,
+        name:realName,
+        beers:data.response.user.stats.total_beers,
+        checkins:data.response.user.stats.total_checkins,
+        badges:data.response.user.stats.total_badges,
+    });
     }
-
-    return this.sortInformation(result);
+    console.log(result);
+    return result;
   }
 
   sortInformation(listOfInformation) {
