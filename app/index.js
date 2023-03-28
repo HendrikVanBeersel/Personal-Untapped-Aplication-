@@ -6,6 +6,6 @@ export default function Index() {
 }
 const styles = StyleSheet.create({
   screen: {
-    backgroundColor: "#A80031",
+    backgroundColor: "#fff",
   },
 });

@@ -24,7 +24,7 @@ export default function HeaderNavigation({ active }) {
         style={
           active === "profile" ? styles.activeBackground : styles.headerElement
         }
-        href="/profile"
+        href="../screens/profile"
       >
         profile
       </Link>

@@ -5,9 +5,7 @@ import HeaderNavigation from "../components/header";
 
 export default function Login() {
   const [loginText, setLoginText] = React.useState("");
-    function loginManager(){
-        
-    }
+  function loginManager() {}
   return (
     <View>
       <HeaderNavigation />
@@ -17,10 +15,7 @@ export default function Login() {
           onChangeText={setLoginText}
           value={loginText}
         />
-        <Button
-        title="login"
-        onPress={loginManager()}/>
-
+        <Button title="login" onPress={loginManager()} />
       </View>
     </View>
   );
