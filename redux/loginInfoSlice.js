@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import data from "../back-end/database/data.json";
 
 const initialState = { value: null };
 
@@ -8,11 +7,7 @@ const loginInfoSlice = createSlice({
   initialState,
   reducers: {
     loggingIn(state, action) {
-      data.forEach((person, index) => {
-        if (person.name === action.payload) {
-          state.value = index;
-        }
-      });
+      state.value = action.payload;
     },
     loggingOut(state) {
       state.value = null;

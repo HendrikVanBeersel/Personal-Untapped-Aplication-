@@ -15,7 +15,7 @@ export default function RankingButton({ title, link, rank }) {
         }}
       >
         <Svg width="100%" height="100%" viewBox="0 0 200 100">
-          <Rect fill="#000fa8" width="200" height="100" rx="20" ry="10" />
+          <Rect fill="#000" width="200" height="100" rx="20" ry="10" />
           <Text
             fill="#000e97"
             y="90"

@@ -17,7 +17,7 @@ export default function Ranking() {
         />
         <RankingButton title="Badges" link="rankingSubscreens/badgesRanking" />
         <RankingButton
-          title="checkins"
+          title="check-ins"
           link="rankingSubscreens/checkinRanking"
         />
       </View>
