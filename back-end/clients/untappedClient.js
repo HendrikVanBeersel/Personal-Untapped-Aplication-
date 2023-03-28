@@ -64,12 +64,11 @@ module.exports = class UntappdClient {
       result.push({
         user:user,
         name:realName,
-        beers:data.response.user.stats.total_beers,
+        uniqueBeers:data.response.user.stats.total_beers,
         checkins:data.response.user.stats.total_checkins,
         badges:data.response.user.stats.total_badges,
     });
     }
-    console.log(result);
     return result;
   }
 

@@ -2,77 +2,77 @@
   {
     "user": "eurniee",
     "name": "Arne Vermeulen",
-    "beers": 472,
+    "uniqueBeers": 472,
     "checkins": 570,
     "badges": 735
   },
   {
     "user": "DriesWets",
     "name": "Dries Wets",
-    "beers": 450,
+    "uniqueBeers": 450,
     "checkins": 461,
     "badges": 658
   },
   {
     "user": "BassieWouters",
     "name": "Bassie Wouters",
-    "beers": 130,
+    "uniqueBeers": 130,
     "checkins": 164,
     "badges": 226
   },
   {
     "user": "Den_Henry",
     "name": "Hendrik Van Beersel",
-    "beers": 472,
+    "uniqueBeers": 472,
     "checkins": 529,
     "badges": 791
   },
   {
     "user": "zico_van_acker_3579",
     "name": "Zico Van Acker",
-    "beers": 55,
+    "uniqueBeers": 55,
     "checkins": 55,
     "badges": 84
   },
   {
     "user": "Tommiexp",
     "name": "Tom Andries",
-    "beers": 127,
+    "uniqueBeers": 127,
     "checkins": 136,
     "badges": 160
   },
   {
     "user": "Mattheus_",
     "name": "Matt Reus",
-    "beers": 4,
+    "uniqueBeers": 4,
     "checkins": 4,
     "badges": 5
   },
   {
     "user": "ellenvaneyken",
     "name": "Ellen Van Eyken",
-    "beers": 319,
+    "uniqueBeers": 319,
     "checkins": 376,
     "badges": 536
   },
   {
     "user": "bert_haverals_3063",
     "name": "Bert Haverals",
-    "beers": 230,
+    "uniqueBeers": 230,
     "checkins": 337,
     "badges": 455
   },
   {
     "user": "Aphroditi",
     "name": "Aphroditi G",
-    "beers": 25,
+    "uniqueBeers": 25,
     "checkins": 26,
     "badges": 34
   },
   {
     "user": "Arne11",
     "name": "Arne Vinck",
-    "beers": 28,
+    "uniqueBeers": 28,
     "checkins": 28,
     "badges": 46
   }
