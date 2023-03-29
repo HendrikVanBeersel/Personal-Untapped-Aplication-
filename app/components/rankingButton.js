@@ -4,8 +4,9 @@ import { Rect, Svg, Text } from "react-native-svg";
 
 export default function RankingButton({ title, link, rank }) {
   const router = useRouter();
+  var rankNumber;
   if (rank) {
-    rank = "#" + rank;
+    rankNumber = "#" + rank;
   }
   return (
     <View style={styles.rankingButton}>
@@ -16,14 +17,8 @@ export default function RankingButton({ title, link, rank }) {
       >
         <Svg width="100%" height="100%" viewBox="0 0 200 100">
           <Rect fill="#000" width="200" height="100" rx="20" ry="10" />
-          <Text
-            fill="#000e97"
-            y="90"
-            x="100"
-            textAnchor="middle"
-            fontSize="110"
-          >
-            {rank}
+          <Text fill="#333" y="90" x="100" textAnchor="middle" fontSize="110">
+            {rankNumber}
           </Text>
           <Text fill="#fff" y="60" x="100" textAnchor="middle" fontSize="30">
             {title}

@@ -8,7 +8,7 @@ export default function HeaderNavigation({ active }) {
         style={
           active === "home" ? styles.activeBackground : styles.headerElement
         }
-        href="../screens/home"
+        href="./home"
       >
         home
       </Link>
@@ -16,7 +16,7 @@ export default function HeaderNavigation({ active }) {
         style={
           active === "ranking" ? styles.activeBackground : styles.headerElement
         }
-        href="../screens/ranking"
+        href="./ranking"
       >
         ranking
       </Link>
@@ -24,7 +24,7 @@ export default function HeaderNavigation({ active }) {
         style={
           active === "profile" ? styles.activeBackground : styles.headerElement
         }
-        href="../screens/profile"
+        href="./profile"
       >
         profile
       </Link>

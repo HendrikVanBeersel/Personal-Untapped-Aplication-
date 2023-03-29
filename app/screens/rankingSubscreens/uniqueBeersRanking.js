@@ -3,12 +3,13 @@ import HeaderNavigation from "../../components/header";
 import data from "../../../back-end/database/data.json";
 import BackButton from "../../components/backButton";
 import UntappedLogo from "../../pictures/untappedLogo";
+import HeaderSubScreenNavigation from "../../components/headerSubScreen";
 
 export default function UniqueBeersRanking() {
   var ranking = data.sort((a, b) => b.uniqueBeers - a.uniqueBeers);
   return (
     <View>
-      <HeaderNavigation active="ranking" />
+      <HeaderSubScreenNavigation active="ranking" subActive="uniqueBeers" />
       <BackButton />
       <View style={styles.rankingBox}>
         <View style={styles.rankingElement}>
