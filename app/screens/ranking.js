@@ -19,7 +19,6 @@ export default function Ranking() {
     try {
       const fileUri = `${FileSystem.documentDirectory}/LoginInfo`;
       var info = await FileSystem.readAsStringAsync(fileUri);
-      console.log(info);
       setLoginInfo(info);
     } catch (error) {
       console.log(error.name);
@@ -45,7 +44,6 @@ export default function Ranking() {
       ];
       var rankingBadges = [...data.sort((a, b) => b.badges - a.badges)];
       var rankingCheckins = [...data.sort((a, b) => b.checkins - a.checkins)];
-      console.log("check " + loginInfo);
       rankTemp.unique =
         rankingUnique.findIndex((person) => person.name === loginInfoTemp) + 1;
       rankTemp.badges =
@@ -75,6 +73,10 @@ export default function Ranking() {
           title="check-ins"
           link="rankingSubscreens/checkinRanking"
           rank={rank.checkin}
+        />
+        <RankingButton
+          title="Greates Beers"
+          link="rankingSubscreens/bestBeersRanking"
         />
       </View>
       <UntappedLogo />
