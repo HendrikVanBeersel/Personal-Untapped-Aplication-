@@ -65,6 +65,16 @@ export default function HeaderSubScreenNavigation({ active, subActive }) {
         >
           check-in
         </Link>
+        <Link
+          style={
+            subActive === "bestBeers"
+              ? styles.activeBackground
+              : styles.headerElement
+          }
+          href="./bestBeersRanking"
+        >
+          bestBeers
+        </Link>
       </View>
     </View>
   );

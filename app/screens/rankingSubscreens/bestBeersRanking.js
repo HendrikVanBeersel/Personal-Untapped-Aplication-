@@ -46,7 +46,7 @@ export default function BestBeerRanking() {
   };
   return (
     <View>
-      <HeaderSubScreenNavigation active="ranking" subActive="BestBeer" />
+      <HeaderSubScreenNavigation active="ranking" subActive="bestBeers" />
       <BackButton />
       <SafeAreaView style={styles.rankingBox}>
         <FlatList
