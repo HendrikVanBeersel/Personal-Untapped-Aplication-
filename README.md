@@ -4,12 +4,8 @@ wij zitten met mijn vrienden samen op een app deze app gaat al de info tussen on
 
 # Back-end
 
-raad ik af te gebruiken deze code gebruik ik om al de data op te halen.
+raad ik af te gebruiken deze code gebruik ik om al de data op te halen. en hou ik er ook in om te tonen hoe ik dit gedaan heb.
 
-werkt ook op het moment niet ik moet nieuwe keys aanvragen voor de api
+-voor de .env file van backe-end
+--maak een file .env aan in de folder back-end/client
 
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)

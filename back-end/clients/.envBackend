@@ -1,2 +1,4 @@
-Client_ID= 
-Client_Secret= 
+Client_ID= ""
+Client_Secret= ""
+ACCESS_TOKEN=""
+CODE=""
