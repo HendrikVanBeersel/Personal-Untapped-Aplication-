@@ -1,5 +1,5 @@
-import { Redirect } from "expo-router";
-import { View, Text, Dimensions } from "react-native";
+import { Redirect, useRouter } from "expo-router";
+import { View, Text, Dimensions, Button } from "react-native";
 import HeaderNavigation from "../components/header";
 import * as FileSystem from "expo-file-system";
 import React, { useEffect } from "react";
@@ -7,31 +7,41 @@ import Yggdrasil from "../pictures/yggdrasil";
 import { StyleSheet } from "react-native";
 
 export default function Profile() {
+  const router = useRouter();
   const [loginInfo, setLoginInfo] = React.useState("");
+  var info = "";
   async function getLoggedIn() {
     try {
       const fileUri = `${FileSystem.documentDirectory}/LoginInfo`;
-      var info = await FileSystem.readAsStringAsync(fileUri);
-      console.log(loginInfo);
+      info = await FileSystem.readAsStringAsync(fileUri);
+
       setLoginInfo(info);
     } catch (error) {
       console.log(error.name);
     }
   }
-  useEffect(() => {
-    getLoggedIn().then(checkLoggedIn());
-  }, []);
-  function checkLoggedIn() {
-    if (loginInfo) {
-      return <Redirect href="./login" />;
+  async function checkLoggedIn() {
+    await getLoggedIn();
+    if (!info) {
+      return router.push("./login");
     }
   }
+  async function logginOut() {
+    const fileUri = `${FileSystem.documentDirectory}/LoginInfo`;
+
+    await FileSystem.deleteAsync(fileUri);
+    return router.push("./login");
+  }
+  checkLoggedIn();
+
   return (
     <View>
       <HeaderNavigation active="profile" />
       <View style={styles.profile}>
-        <Text>{loginInfo}</Text>
+        <Text style={styles.profileText}>{"Welcome\n" + loginInfo}</Text>
       </View>
+      <Button style={styles.button} title="logout" onPress={logginOut} />
+
       <View style={styles.logo}>
         <Yggdrasil />
       </View>
@@ -40,6 +50,7 @@ export default function Profile() {
 }
 
 const heightScreen = Dimensions.get("window").height;
+const widthScreen = Dimensions.get("window").width;
 
 const styles = StyleSheet.create({
   container: {
@@ -49,7 +60,12 @@ const styles = StyleSheet.create({
   profile: {
     padding: 10,
     flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 30,
+    paddingTop: 50,
   },
+  profileText: { fontSize: 30 },
   logo: {
     position: "absolute",
     top: heightScreen * 0.55,
@@ -58,5 +74,8 @@ const styles = StyleSheet.create({
     bottom: 0,
     justifyContent: "center",
     alignItems: "center",
+  },
+  button: {
+    marginHorizontal: widthScreen * 0.05,
   },
 });

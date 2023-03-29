@@ -1,282 +1,45 @@
-{
-  "meta": {
-    "code": 200,
-    "response_time": { "time": 0.144, "measure": "seconds" },
-    "init_time": { "time": 0, "measure": "seconds" }
+[
+  { "count": 5, "name": "Buval" },
+  { "count": 5, "name": "Duvel" },
+  { "count": 4, "name": "Trappist Westvleteren 12" },
+  { "count": 4, "name": "Tank 7" },
+  { "count": 3, "name": "Orval" },
+  { "count": 3, "name": "Tripel d'Anvers" },
+  { "count": 3, "name": "Duvel Tripel Hop Citra" },
+  { "count": 3, "name": "Tripel Karmeliet" },
+  { "count": 2, "name": "Nen Henry 1st Edition" },
+  { "count": 2, "name": "Stella Artois" },
+  { "count": 2, "name": "Delirium Tremens" },
+  {
+    "count": 2,
+    "name": "3 Fonteinen Zenne y Frontera (season 18|19) Blend No. 93"
   },
-  "notifications": {
-    "type": "notifications",
-    "unread_count": {
-      "comments": 0,
-      "toasts": 73,
-      "friends": 0,
-      "messages": 0,
-      "venues": 11,
-      "veunes": 11,
-      "others": 15,
-      "news": 115
-    }
+  { "count": 2, "name": "Abricot 2021" },
+  { "count": 2, "name": "Klootzakske" },
+  { "count": 2, "name": "Gust" },
+  { "count": 2, "name": "Pinard De Bruxelles (Vintage 2020)" },
+  { "count": 2, "name": "Blonden Os" },
+  { "count": 2, "name": "Pauwel Kwak" },
+  { "count": 2, "name": "Gouden Carolus Whisky Infused" },
+  { "count": 2, "name": "Duvel Tripel Hop Cashmere" },
+  { "count": 2, "name": "Chasselas" },
+  { "count": 2, "name": "Nue (鵺)" },
+  { "count": 2, "name": "Einder" },
+  { "count": 2, "name": "Den Tuymelaar Special Edition 2021" },
+  { "count": 2, "name": "Den Tuymelaar Blond" },
+  { "count": 2, "name": "Den Tuymelaar" },
+  { "count": 2, "name": "Bière des Amis 0.0" },
+  { "count": 2, "name": "Maneblusser" },
+  { "count": 2, "name": "Duvel 6,66%" },
+  { "count": 2, "name": "Duchesse de Bourgogne" },
+  { "count": 2, "name": "Kwaremont" },
+  { "count": 2, "name": "Gouden Carolus Tripel" },
+  { "count": 2, "name": "Wipers Times Blond" },
+  {
+    "count": 2,
+    "name": "Duvel Barrel Aged (2022) - Batch 7 Irish Whiskey Edition"
   },
-  "response": {
-    "total_count": 473,
-    "dates": {
-      "first_checkin_date": "Fri, 16 Jul 2021 18:43:35 +0000",
-      "start_date": false,
-      "end_date": false,
-      "tzOffset": "0"
-    },
-    "is_search": false,
-    "sort": "highest_rated_you",
-    "type_id": false,
-    "country_id": false,
-    "brewery_id": false,
-    "rating_score": false,
-    "region_id": false,
-    "container_id": false,
-    "is_multi_type": false,
-    "beers": {
-      "count": 5,
-      "items": [
-        {
-          "first_checkin_id": 1057741398,
-          "first_created_at": "Tue, 27 Jul 2021 21:27:50 +0200",
-          "recent_checkin_id": 1063481224,
-          "recent_created_at": "Mon, 09 Aug 2021 22:14:04 +0200",
-          "recent_created_at_timezone": "2",
-          "rating_score": 5,
-          "user_auth_rating_score": 5,
-          "first_had": "Tue, 27 Jul 2021 21:27:50 +0200",
-          "count": 2,
-          "beer": {
-            "bid": 3469209,
-            "beer_name": "Bière des Amis 0.0",
-            "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
-            "beer_abv": 0,
-            "beer_ibu": 0,
-            "beer_slug": "neobulles-biere-des-amis-0-0",
-            "beer_style": "Non-Alcoholic Beer - Pale Ale",
-            "beer_description": "Non-Alcoholic Belgian Blonde",
-            "created_at": "Sun, 06 Oct 2019 15:31:06 +0000",
-            "rating_score": 2.84198,
-            "rating_count": 2595
-          },
-          "brewery": {
-            "brewery_id": 411801,
-            "brewery_name": "Neobulles",
-            "brewery_slug": "neobulles",
-            "brewery_page_url": "/w/neobulles/411801",
-            "brewery_type": "Contract Brewery",
-            "brewery_label": "https://assets.untappd.com/site/assets/images/temp/badge-brewery-default.png",
-            "country_name": "Belgium",
-            "contact": {
-              "twitter": "",
-              "facebook": "https://www.facebook.com/bieredesamis",
-              "instagram": "bieredesamis",
-              "url": "https://bieredesamis.be"
-            },
-            "location": {
-              "brewery_city": "Thimister",
-              "brewery_state": "Wallonie",
-              "lat": 50.6542015,
-              "lng": 5.8640099
-            },
-            "brewery_active": 1
-          }
-        },
-        {
-          "first_checkin_id": 1059442036,
-          "first_created_at": "Sat, 31 Jul 2021 20:29:06 +0200",
-          "recent_checkin_id": 1077327027,
-          "recent_created_at": "Tue, 14 Sep 2021 20:20:46 +0200",
-          "recent_created_at_timezone": "2",
-          "rating_score": 5,
-          "user_auth_rating_score": 5,
-          "first_had": "Sat, 31 Jul 2021 20:29:06 +0200",
-          "count": 2,
-          "beer": {
-            "bid": 25654,
-            "beer_name": "Oude Kriek (Vieille)",
-            "beer_label": "https://assets.untappd.com/site/beer_logos/beer-25654_d71ad_sm.jpeg",
-            "beer_abv": 6,
-            "beer_ibu": 13,
-            "beer_slug": "oud-beersel-oude-kriek-vieille",
-            "beer_style": "Lambic - Kriek",
-            "beer_description": "Oud Beersel Oude Kriek is an artisanal product, made from real cherries and Oud Beersel lambic matured in old barrels. They are slowly absorbed into the lambic, which develops a fruity character and a ruby red colour. Oud Beersel Oude Kriek is unique of its type in that it contains around 400 grams of cherries per litre. Oud Beersel Oude Kriek has no added sugar and contains no artificial flavourings or preservatives.",
-            "created_at": "Fri, 21 Jan 2011 19:27:16 +0000",
-            "rating_score": 3.8006,
-            "rating_count": 32096
-          },
-          "brewery": {
-            "brewery_id": 290,
-            "brewery_name": "Oud Beersel",
-            "brewery_slug": "oud-beersel",
-            "brewery_page_url": "/oudbeersel",
-            "brewery_type": "Micro Brewery",
-            "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-290_29247.jpeg",
-            "country_name": "Belgium",
-            "contact": {
-              "twitter": "Bersalis",
-              "facebook": "https://www.facebook.com/oudbeersel",
-              "instagram": "oudbeersel",
-              "url": "https://oudbeersel.com"
-            },
-            "location": {
-              "brewery_city": "Beersel",
-              "brewery_state": "Vlaanderen",
-              "lat": 50.7585983,
-              "lng": 4.3008699
-            },
-            "brewery_active": 1
-          }
-        },
-        {
-          "first_checkin_id": 1060515324,
-          "first_created_at": "Mon, 02 Aug 2021 23:56:46 +0200",
-          "recent_checkin_id": 1060515324,
-          "recent_created_at": "Mon, 02 Aug 2021 23:56:46 +0200",
-          "recent_created_at_timezone": "2",
-          "rating_score": 5,
-          "user_auth_rating_score": 5,
-          "first_had": "Mon, 02 Aug 2021 23:56:46 +0200",
-          "count": 1,
-          "beer": {
-            "bid": 9601,
-            "beer_name": "Straffe Hendrik Brugs Tripel Bier 9°",
-            "beer_label": "https://assets.untappd.com/site/beer_logos/beer-9601_96801_sm.jpeg",
-            "beer_abv": 9,
-            "beer_ibu": 35,
-            "beer_slug": "brouwerij-de-halve-maan-straffe-hendrik-brugs-tripel-bier-9",
-            "beer_style": "Belgian Tripel",
-            "beer_description": "Straffe Hendrik is a Bitter Tripel Ale of 9% abv. The beer was originally from Bruges and brewed in Bruges by brewery De Halve Maan.\r\n\r\nIn 1981, Henri Maes and his daughter Véronique followed the demand of the mayor and created a strong blond beer for the inauguration of the statue of Sint-Arnoldus, the saint of all beer-brewers. However, the beer became so popular, that the demand for the beer continued. It was given the name of Straffe Hendrik (Strong Hendrick), since it was a rich and strong beer.\r\n\r\nToday, Straffe Hendrik is the last authentic Tripel Ale of Bruges. ",
-            "created_at": "Wed, 17 Nov 2010 17:20:58 +0000",
-            "rating_score": 3.75887,
-            "rating_count": 147878
-          },
-          "brewery": {
-            "brewery_id": 430,
-            "brewery_name": "Brouwerij De Halve Maan",
-            "brewery_slug": "brouwerij-de-halve-maan",
-            "brewery_page_url": "/BrouwerijDeHalveMaan",
-            "brewery_type": "Regional Brewery",
-            "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-430_e5f78.jpeg",
-            "country_name": "Belgium",
-            "contact": {
-              "twitter": "BrugseZotBruges",
-              "facebook": "https://www.facebook.com/brouwerijdehalvemaan",
-              "instagram": "brugse_zot",
-              "url": "https://www.halvemaan.be"
-            },
-            "location": {
-              "brewery_city": "Bruges",
-              "brewery_state": "Vlaanderen",
-              "lat": 51.2025986,
-              "lng": 3.2246499
-            },
-            "brewery_active": 1
-          }
-        },
-        {
-          "first_checkin_id": 1069437319,
-          "first_created_at": "Tue, 24 Aug 2021 21:11:11 +0200",
-          "recent_checkin_id": 1069437319,
-          "recent_created_at": "Tue, 24 Aug 2021 21:11:11 +0200",
-          "recent_created_at_timezone": "2",
-          "rating_score": 5,
-          "user_auth_rating_score": 5,
-          "first_had": "Tue, 24 Aug 2021 21:11:11 +0200",
-          "count": 1,
-          "beer": {
-            "bid": 4061674,
-            "beer_name": "6th Libertus Cuvée",
-            "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4061674_ade88_sm.jpeg",
-            "beer_abv": 8.5,
-            "beer_ibu": 45,
-            "beer_slug": "braxatorium-parcensis-6th-libertus-cuvee",
-            "beer_style": "Winter Ale",
-            "beer_description": "",
-            "created_at": "Fri, 20 Nov 2020 11:58:34 +0000",
-            "rating_score": 3.50519,
-            "rating_count": 540
-          },
-          "brewery": {
-            "brewery_id": 443318,
-            "brewery_name": "Braxatorium Parcensis",
-            "brewery_slug": "braxatorium-parcensis",
-            "brewery_page_url": "/w/braxatorium-parcensis/443318",
-            "brewery_type": "Micro Brewery",
-            "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-443318_8ecaf.jpeg",
-            "country_name": "Belgium",
-            "contact": {
-              "twitter": "BraxatoriumP",
-              "facebook": "https://www.facebook.com/braxatoriumparcensis",
-              "instagram": "braxatoriumparcensis",
-              "url": "https://braxatoriumparcensis.be"
-            },
-            "location": {
-              "brewery_city": "Heverlee",
-              "brewery_state": "Vlaanderen",
-              "lat": 50.8646011,
-              "lng": 4.7172298
-            },
-            "brewery_active": 1
-          }
-        },
-        {
-          "first_checkin_id": 1070955510,
-          "first_created_at": "Sat, 28 Aug 2021 20:26:29 +0200",
-          "recent_checkin_id": 1070955510,
-          "recent_created_at": "Sat, 28 Aug 2021 20:26:29 +0200",
-          "recent_created_at_timezone": "2",
-          "rating_score": 5,
-          "user_auth_rating_score": 5,
-          "first_had": "Sat, 28 Aug 2021 20:26:29 +0200",
-          "count": 1,
-          "beer": {
-            "bid": 20141,
-            "beer_name": "Bersalis Tripel",
-            "beer_label": "https://assets.untappd.com/site/beer_logos/beer-20141_35cad_sm.jpeg",
-            "beer_abv": 9.5,
-            "beer_ibu": 0,
-            "beer_slug": "oud-beersel-bersalis-tripel",
-            "beer_style": "Belgian Tripel",
-            "beer_description": "Bersalis Tripel is a blond triple with firm character. The full body taste of wheat malt evolves during drinking from a fruity-bitter flavour to a round sweet taste. Its spices leave a nice feeling in the mouth.",
-            "created_at": "Sun, 02 Jan 2011 06:49:13 +0000",
-            "rating_score": 3.59099,
-            "rating_count": 22085
-          },
-          "brewery": {
-            "brewery_id": 290,
-            "brewery_name": "Oud Beersel",
-            "brewery_slug": "oud-beersel",
-            "brewery_page_url": "/oudbeersel",
-            "brewery_type": "Micro Brewery",
-            "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-290_29247.jpeg",
-            "country_name": "Belgium",
-            "contact": {
-              "twitter": "Bersalis",
-              "facebook": "https://www.facebook.com/oudbeersel",
-              "instagram": "oudbeersel",
-              "url": "https://oudbeersel.com"
-            },
-            "location": {
-              "brewery_city": "Beersel",
-              "brewery_state": "Vlaanderen",
-              "lat": 50.7585983,
-              "lng": 4.3008699
-            },
-            "brewery_active": 1
-          }
-        }
-      ],
-      "sort_english": "Your Rating (High to Low)",
-      "sort_name": "Your Rating (High to Low)"
-    },
-    "sort_key": "highest_rated_you",
-    "sort_name": "Your Rating (High to Low)",
-    "pagination": {
-      "next_url": "https://api.untappd.com/v4/user/beers/Den_Henry?limit=5&sort=highest_rated_you&offset=5",
-      "offset": 5,
-      "max_id": false
-    }
-  }
-}
+  { "count": 2, "name": "Airborne Bière Tripel Blonde" },
+  { "count": 2, "name": "CORNET Oaked" },
+  { "count": 2, "name": "Salitos Tequila" }
+]

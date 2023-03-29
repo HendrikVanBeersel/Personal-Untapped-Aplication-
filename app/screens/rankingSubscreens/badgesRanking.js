@@ -1,4 +1,4 @@
-import { Dimensions, StyleSheet, Text, View } from "react-native";
+import { Dimensions, ScrollView, StyleSheet, Text, View } from "react-native";
 import HeaderNavigation from "../../components/header";
 import data from "../../../back-end/database/data.json";
 import BackButton from "../../components/backButton";
@@ -10,12 +10,13 @@ export default function BadgesRanking() {
   return (
     <View>
       <HeaderSubScreenNavigation active="ranking" subActive="badges" />
+      <ScrollView>
       <BackButton />
       <View style={styles.rankingBox}>
         <View style={styles.rankingElement}>
           <Text style={styles.rankingText}>Ranking</Text>
           <Text style={styles.nameText}>Name</Text>
-          <Text style={styles.totalText}>badges</Text>
+          <Text style={styles.totalText}>#badges</Text>
         </View>
         {ranking.map((person, index) => (
           <View style={styles.rankingElement} key={person.name}>
@@ -25,7 +26,10 @@ export default function BadgesRanking() {
           </View>
         ))}
       </View>
-      <UntappedLogo />
+      <View style={styles.image}>
+          <UntappedLogo />
+        </View>
+      </ScrollView>
     </View>
   );
 }
@@ -67,5 +71,11 @@ const styles = StyleSheet.create({
     borderColor: "#000",
     padding: 10,
     width: widthTotal,
+  },  image: {
+    justifyContent: "center",
+    flex: 1,
+    height: widthScreen * 1.5,
+    alignItems: "center",
   },
+
 });

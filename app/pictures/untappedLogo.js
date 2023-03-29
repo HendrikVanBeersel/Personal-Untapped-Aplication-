@@ -1,5 +1,4 @@
 import Svg, { Path } from "react-native-svg";
-import { View } from "react-native";
 
 export default function UntappedLogo(props) {
   return (
