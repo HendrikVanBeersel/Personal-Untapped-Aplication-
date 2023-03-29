@@ -61,13 +61,25 @@ module.exports = class UntappdClient {
         " ",
         data.response.user.last_name
       );
+      let limit = Math.round(data.response.user.stats.total_beers * 0.1);
+      let beerdata;
+      let topBeers = [];
+      if (limit > 0) {
+        beerdata = await this.get(
+          `/v4/user/beers/${listOfUsers[i]}?access_token=${this.accessToken}&limit=${limit}&sort=highest_rated_you`
+        );
+        topBeers = beerdata.response.beers.items.map(
+          (checkin) => checkin.beer.beer_name
+        );
+      }
       result.push({
-        user:user,
-        name:realName,
-        uniqueBeers:data.response.user.stats.total_beers,
-        checkins:data.response.user.stats.total_checkins,
-        badges:data.response.user.stats.total_badges,
-    });
+        user: user,
+        name: realName,
+        uniqueBeers: data.response.user.stats.total_beers,
+        checkins: data.response.user.stats.total_checkins,
+        badges: data.response.user.stats.total_badges,
+        topBeers: topBeers,
+      });
     }
     return result;
   }
